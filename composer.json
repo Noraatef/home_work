@@ -1,0 +1,19 @@
+{
+    "name": "kmatar/test",
+    "description": "PHP examples",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kmatar\\Test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Khaled Matar"
+        }
+    ],
+    "require": {
+        "symfony/intl": "^6.3"
+    }
+}
